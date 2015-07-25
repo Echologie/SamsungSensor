@@ -133,57 +133,112 @@ print(activitySummary)
 Here is a list of all the variables in the output data frame. Precise description of each variables (except the first two) can be found in the "features_info.txt" file in the dataset folder.
 
 Subject : Subject id, from 1 to 30
+
 Activity : activity done during the measurements averaged
+
 mean(tBodyacc.mean...X) : Average over each subject and activity of the tBodyAcc mean   X variable from the Human Activity Recognition Using Smartphones Dataset
+
 mean(tBodyAcc.mean...Y) : Average over each subject and activity of the tBodyAcc mean   Y variable from the Human Activity Recognition Using Smartphones Dataset
+
 mean(tBodyAcc.mean...Z) : Average over each subject and activity of the tBodyAcc mean   Z variable from the Human Activity Recognition Using Smartphones Dataset
+
 mean(tGravityAcc.mean...X) : Average over each subject and activity of the tGravityAcc mean   X variable from the Human Activity Recognition Using Smartphones Dataset
+
 mean(tGravityAcc.mean...Y) : Average over each subject and activity of the tGravityAcc mean   Y variable from the Human Activity Recognition Using Smartphones Dataset
+
 mean(tGravityAcc.mean...Z) : Average over each subject and activity of the tGravityAcc mean   Z variable from the Human Activity Recognition Using Smartphones Dataset
+
 mean(tBodyAccJerk.mean...X) : Average over each subject and activity of the tBodyAccJerk mean   X variable from the Human Activity Recognition Using Smartphones Dataset
+
 mean(tBodyAccJerk.mean...Y) : Average over each subject and activity of the tBodyAccJerk mean   Y variable from the Human Activity Recognition Using Smartphones Dataset
+
 mean(tBodyAccJerk.mean...Z) : Average over each subject and activity of the tBodyAccJerk mean   Z variable from the Human Activity Recognition Using Smartphones Dataset
+
 mean(tBodyGyro.mean...X) : Average over each subject and activity of the tBodyGyro mean   X variable from the Human Activity Recognition Using Smartphones Dataset
+
 mean(tBodyGyro.mean...Y) : Average over each subject and activity of the tBodyGyro mean   Y variable from the Human Activity Recognition Using Smartphones Dataset
+
 mean(tBodyGyro.mean...Z) : Average over each subject and activity of the tBodyGyro mean   Z variable from the Human Activity Recognition Using Smartphones Dataset
+
 mean(tBodyGyroJerk.mean...X) : Average over each subject and activity of the tBodyGyroJerk mean   X variable from the Human Activity Recognition Using Smartphones Dataset
+
 mean(tBodyGyroJerk.mean...Y) : Average over each subject and activity of the tBodyGyroJerk mean   Y variable from the Human Activity Recognition Using Smartphones Dataset
+
 mean(tBodyGyroJerk.mean...Z) : Average over each subject and activity of the tBodyGyroJerk mean   Z variable from the Human Activity Recognition Using Smartphones Dataset
+
 mean(tBodyAccMag.mean..) : Average over each subject and activity of the tBodyAccMag mean  variable  from the Human Activity Recognition Using Smartphones Dataset
+
 mean(tGravityAccMag.mean..) : Average over each subject and activity of the tGravityAccMag mean  variable  from the Human Activity Recognition Using Smartphones Dataset
+
 mean(tBodyAccJerkMag.mean..) : Average over each subject and activity of the tBodyAccJerkMag mean  variable  from the Human Activity Recognition Using Smartphones Dataset
+
 mean(tBodyGyroMag.mean..) : Average over each subject and activity of the tBodyGyroMag mean  variable  from the Human Activity Recognition Using Smartphones Dataset
+
 mean(tBodyGyroJerkMag.mean..) : Average over each subject and activity of the tBodyGyroJerkMag mean  variable  from the Human Activity Recognition Using Smartphones Dataset
+
 mean(fBodyAcc.mean...X) : Average over each subject and activity of the fBodyAcc mean   X variable from the Human Activity Recognition Using Smartphones Dataset
+
 mean(fBodyAcc.mean...Y) : Average over each subject and activity of the fBodyAcc mean   Y variable from the Human Activity Recognition Using Smartphones Dataset
+
 mean(fBodyAcc.mean...Z) : Average over each subject and activity of the fBodyAcc mean   Z variable from the Human Activity Recognition Using Smartphones Dataset
+
 mean(fBodyAcc.meanFreq...X) : Average over each subject and activity of the fBodyAcc meanFreq   X variable from the Human Activity Recognition Using Smartphones Dataset
+
 mean(fBodyAcc.meanFreq...Y) : Average over each subject and activity of the fBodyAcc meanFreq   Y variable from the Human Activity Recognition Using Smartphones Dataset
+
 mean(fBodyAcc.meanFreq...Z) : Average over each subject and activity of the fBodyAcc meanFreq   Z variable from the Human Activity Recognition Using Smartphones Dataset
+
 mean(fBodyAccJerk.mean...X) : Average over each subject and activity of the fBodyAccJerk mean   X variable from the Human Activity Recognition Using Smartphones Dataset
+
 mean(fBodyAccJerk.mean...Y) : Average over each subject and activity of the fBodyAccJerk mean   Y variable from the Human Activity Recognition Using Smartphones Dataset
+
 mean(fBodyAccJerk.mean...Z) : Average over each subject and activity of the fBodyAccJerk mean   Z variable from the Human Activity Recognition Using Smartphones Dataset
+
 mean(fBodyAccJerk.meanFreq...X) : Average over each subject and activity of the fBodyAccJerk meanFreq   X variable from the Human Activity Recognition Using Smartphones Dataset
+
 mean(fBodyAccJerk.meanFreq...Y) : Average over each subject and activity of the fBodyAccJerk meanFreq   Y variable from the Human Activity Recognition Using Smartphones Dataset
+
 mean(fBodyAccJerk.meanFreq...Z) : Average over each subject and activity of the fBodyAccJerk meanFreq   Z variable from the Human Activity Recognition Using Smartphones Dataset
+
 mean(fBodyGyro.mean...X) : Average over each subject and activity of the fBodyGyro mean   X variable from the Human Activity Recognition Using Smartphones Dataset
+
 mean(fBodyGyro.mean...Y) : Average over each subject and activity of the fBodyGyro mean   Y variable from the Human Activity Recognition Using Smartphones Dataset
+
 mean(fBodyGyro.mean...Z) : Average over each subject and activity of the fBodyGyro mean   Z variable from the Human Activity Recognition Using Smartphones Dataset
+
 mean(fBodyGyro.meanFreq...X) : Average over each subject and activity of the fBodyGyro meanFreq   X variable from the Human Activity Recognition Using Smartphones Dataset
+
 mean(fBodyGyro.meanFreq...Y) : Average over each subject and activity of the fBodyGyro meanFreq   Y variable from the Human Activity Recognition Using Smartphones Dataset
+
 mean(fBodyGyro.meanFreq...Z) : Average over each subject and activity of the fBodyGyro meanFreq   Z variable from the Human Activity Recognition Using Smartphones Dataset
+
 mean(fBodyAccMag.mean..) : Average over each subject and activity of the fBodyAccMag mean  variable  from the Human Activity Recognition Using Smartphones Dataset
+
 mean(fBodyAccMag.meanFreq..) : Average over each subject and activity of the fBodyAccMag meanFreq  variable  from the Human Activity Recognition Using Smartphones Dataset
+
 mean(fBodyBodyAccJerkMag.mean..) : Average over each subject and activity of the fBodyBodyAccJerkMag mean  variable  from the Human Activity Recognition Using Smartphones Dataset
+
 mean(fBodyBodyAccJerkMag.meanFreq..) : Average over each subject and activity of the fBodyBodyAccJerkMag meanFreq  variable  from the Human Activity Recognition Using Smartphones Dataset
+
 mean(fBodyBodyGyroMag.mean..) : Average over each subject and activity of the fBodyBodyGyroMag mean  variable  from the Human Activity Recognition Using Smartphones Dataset
+
 mean(fBodyBodyGyroMag.meanFreq..) : Average over each subject and activity of the fBodyBodyGyroMag meanFreq  variable  from the Human Activity Recognition Using Smartphones Dataset
+
 mean(fBodyBodyGyroJerkMag.mean..) : Average over each subject and activity of the fBodyBodyGyroJerkMag mean  variable  from the Human Activity Recognition Using Smartphones Dataset
+
 mean(fBodyBodyGyroJerkMag.meanFreq..) : Average over each subject and activity of the fBodyBodyGyroJerkMag meanFreq  variable  from the Human Activity Recognition Using Smartphones Dataset
+
 mean(angle.tBodyAccMean.gravity.) : Average over each subject and activity of the angle tBodyAccMean gravity variable  from the Human Activity Recognition Using Smartphones Dataset
+
 mean(angle.tBodyAccJerkMean..gravityMean.) : Average over each subject and activity of the angle tBodyAccJerkMean  gravityMean variable  from the Human Activity Recognition Using Smartphones Dataset
+
 mean(angle.tBodyGyroMean.gravityMean.) : Average over each subject and activity of the angle tBodyGyroMean gravityMean variable  from the Human Activity Recognition Using Smartphones Dataset
+
 mean(angle.tBodyGyroJerkMean.gravityMean.) : Average over each subject and activity of the angle tBodyGyroJerkMean gravityMean variable  from the Human Activity Recognition Using Smartphones Dataset
+
 mean(angle.X.gravityMean.) : Average over each subject and activity of the angle X gravityMean variable  from the Human Activity Recognition Using Smartphones Dataset
+
 mean(angle.Y.gravityMean.) : Average over each subject and activity of the angle Y gravityMean variable  from the Human Activity Recognition Using Smartphones Dataset
+
 mean(angle.Z.gravityMean.) : Average over each subject and activity of the angle Z gravityMean variable  from the Human Activity Recognition Using Smartphones Dataset
+
