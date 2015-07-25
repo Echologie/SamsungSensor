@@ -4,14 +4,16 @@ names <- read.table("UCI HAR Dataset/features.txt")$V2
 activity_labels <- read.table("UCI HAR Dataset/activity_labels.txt")
 num2label <- function(x) activity_labels$V2[activity_labels$V1 == x]
 
-data_test <- tbl_df(read.table("UCI HAR Dataset/test/X_test.txt", col.names = names))
+data_test <- tbl_df(read.table("UCI HAR Dataset/test/X_test.txt",
+			       col.names = names))
 subject_test <- read.table("UCI HAR Dataset/test/subject_test.txt")$V1
 activity_test <- read.table("UCI HAR Dataset/test/y_test.txt")$V1
 data_test <- mutate(data_test,
                     Subject = subject_test,
                     Activity = activity_test)
 
-data_train <- read.table("UCI HAR Dataset/train/X_train.txt", col.names = names)
+data_train <- read.table("UCI HAR Dataset/train/X_train.txt",
+			 col.names = names)
 subject_train <- read.table("UCI HAR Dataset/train/subject_train.txt")$V1
 activity_train <- read.table("UCI HAR Dataset/train/y_train.txt")$V1
 data_train <- mutate(data_train,
