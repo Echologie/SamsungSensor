@@ -88,3 +88,5 @@ activitySummary <- summarise(activity,
                              mean(angle.X.gravityMean.),
                              mean(angle.Y.gravityMean.),
                              mean(angle.Z.gravityMean.))
+
+activitySummary
